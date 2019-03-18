@@ -24,7 +24,4 @@
     "type": "git",
     "url": "git+https://github.com/fearlessjs/querystring.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
 }
