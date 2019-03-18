@@ -1,0 +1,30 @@
+{
+  "name": "@fearless/querystring",
+  "description": "Middleware querystring",
+  "version": "0.1.0",
+  "author": "Rodrigo Oler <https://github.com/rodrigooler>",
+  "bugs": {
+    "url": "https://github.com/fearlessjs/querystring/issues"
+  },
+  "dependencies": {
+    "querystringify": "2.1.0"
+  },
+  "homepage": "https://github.com/fearlessjs/querystring#readme",
+  "keywords": [
+    "fearless",
+    "middleware",
+    "qs",
+    "querystring",
+    "querystringify",
+    "string"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fearlessjs/querystring.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
