@@ -4,14 +4,18 @@ const queryString = (req, res) => {
   req.query = parse(req.getQuery())
 }
 
-module.exports = (options = { middlewares: [] }) => {
-  return Array.isArray(options)
-    ? {
+module.exports = options => {
+  if (Array.isArray(options)) {
+    return {
       handlers: options,
       middlewares: [queryString]
     }
-    : {
-      ...options,
-      middlewares: [...options.middlewares, queryString]
-    }
+  }
+
+  const { middlewares = [] } = options
+
+  return {
+    ...options,
+    middlewares: [...middlewares, queryString]
+  }
 }

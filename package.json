@@ -1,7 +1,7 @@
 {
   "name": "@fearless/querystring",
   "description": "Middleware querystring",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Rodrigo Oler <https://github.com/rodrigooler>",
   "bugs": {
     "url": "https://github.com/fearlessjs/querystring/issues"
