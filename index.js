@@ -12,6 +12,6 @@ module.exports = options => {
     }
     : {
       ...options,
-      middlewares: [...options.middleware, queryString]
+      middlewares: [...options.middlewares, queryString]
     }
 }
